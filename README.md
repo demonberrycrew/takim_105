@@ -14,26 +14,30 @@ Takım 105
 
 ## Ürün İsmi
 
---Game--
+----
 
 ## Ürün Açıklaması
 
-- Oyunumuz xxx, oyunculara low poly temasına sahip bir oyunda bulmaca çözmenin keyfini yaşatmayı 
+- Oyunumuz, low poly temasında distopik bir evrende, 4 mevsim temasını yansıtan bulmacaları çözerek benliğini arayan bir zaman yolcusunun hikayesini anlatıyor.
 
 ## Ürün Özellikleri
 
-- Oyunumuz 4 mevsim 
-- Oyunumuz 4 Mevsim
-- oyun
-- ffvf
+- Fantastik Ortam Ambiyansı
+- Puzzle 
+- Özgün Karakterler
+- 3D 
+- Tek Oyunculu
+- Keşif
+- Indie
+
 
 ## Hedef Kitle
 
-- Oyun severler
-- Oyuncular
+- Sanat Severler
 - Low Poly oyun sanatından hoşlananlar
 - Bulmaca oyunlarını seven insanlar
 - Her yaş grubuna uygun
+- Oyun Severler
 
 ## Product Backlog URL
 
