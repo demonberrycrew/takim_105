@@ -46,8 +46,10 @@ Takım 105
 - **Puan Tamamlama Mantığı:**
 - **Backlog Düzeni ve Story Seçimleri:**
 - **Daily Scrum:**
-- **Sprint Board Update:**
+- **Sprint Board Update:**![Board View](https://user-images.githubusercontent.com/104262014/167307509-9f22d78e-89bc-4349-a1a3-500b0dfe0549.jpeg)
+
 - **Ürün Durumu:**
+
 - **Sprint Review:**
 - **Sprint Retrospective:**
 - **Diğer Notlar:**
