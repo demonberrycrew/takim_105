@@ -18,7 +18,7 @@ Takım 105
 
 ## Ürün Açıklaması
 
-- Oyunumuz 
+- Oyunumuz xxx, oyunculara low poly temasına sahip bir oyunda bulmaca çözmenin keyfini yaşatmayı 
 
 ## Ürün Özellikleri
 
