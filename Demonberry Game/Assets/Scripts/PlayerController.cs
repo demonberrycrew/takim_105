@@ -12,10 +12,12 @@ public class PlayerController : MonoBehaviour
 
     public CharacterController charController;
 
+    private Camera theCamera;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        theCamera = Camera.current;
     }
 
     // Update is called once per frame
@@ -37,5 +39,6 @@ public class PlayerController : MonoBehaviour
 
         charController.Move(moveDirection * Time.deltaTime);
 
+        transform.rotation = Quaternion.Euler(0f, theCamera.transform.rotation.eulerAngles.y, 0f);
     }
 }
