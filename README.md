@@ -94,7 +94,21 @@ https://demonberrycrew.atlassian.net/jira/dashboards/10002
 
 ---
 
+- **Sprint Notları:** 
+- **Sprint içerisinde tamamlanması tahmin edilen puan:** 180
+- **Puan Tamamlama Mantığı:**  Toplamda proje boyunca 380 puanlık backlog bulunmaktadır.4 sprint'e bölündüğünde üçüncü sprint için 180 puan ile başlanmasına karar verilmiştir.
+- **Backlog Düzeni ve Story Seçimleri:** Backlog'umuz tasklar üzerine düzenlenmiştir. Oyun fikri ve tasarımlarına ağırlık vererek oluşturduğumuz taskler sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırılmıştır.Jira üzerinden projemizi yönettiğimiz için To-Do, In Progress ve Done olarak üç şekilde tasklarımızı sıraladık.
+- **Daily Scrum:** 
 
+
+- **Sprint Board Update:**
+
+
+- **Ürün Durumu:**
+
+- **Sprint Review:** 
+- **Sprint Retrospective:** 
+- **Diğer Notlar:** 
 
 
 
