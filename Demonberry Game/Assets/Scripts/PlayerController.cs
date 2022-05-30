@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     public float Speed = 2f;
     public float SprintSpeed = 5f;
     public float rotationSpeed = 15f;
-    public float AnimationBlendSpeed = 2f;
+    public float AnimationBlendSpeed = 5f;
+    public float JumpSpeed = 6;
     CharacterController CharController;
     Animator PlayerAnimator;
 
@@ -18,6 +19,8 @@ public class PlayerController : MonoBehaviour
 
     float mSpeedY = 0;
     float mGravity = -9.81f;
+
+    bool mJumping = false;
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +35,33 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
 
+        if(Input.GetButtonDown("Jump") && !mJumping)
+        {
+            mJumping = true;
+            PlayerAnimator.SetTrigger("Jump");
+
+            mSpeedY += JumpSpeed;
+        }
+
         if (!CharController.isGrounded)
         {
             mSpeedY += mGravity * Time.deltaTime;
         }
-        else
+        else if(mSpeedY < 0)
         {
             mSpeedY = 0;
+        }
+
+        PlayerAnimator.SetFloat("SpeedY", mSpeedY / JumpSpeed);
+
+        if(mJumping && mSpeedY < 0)
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position, Vector3.down, out hit, .1f, LayerMask.GetMask("Default")))
+            {
+                mJumping = false;
+                PlayerAnimator.SetTrigger("Land");
+            }
         }
    
         mSprinting = Input.GetKey(KeyCode.LeftShift);
