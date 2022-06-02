@@ -5,7 +5,7 @@ using UnityEngine;
 public class CollectTransform : MonoBehaviour
 {
 
-    public float rotateSpeed = 0.67f;
+    public float rotateSpeed = 0.43f;
 
     private void Start()
     {
