@@ -47,7 +47,7 @@ https://demonberrycrew.atlassian.net/jira/dashboards/10002
 
 # Sprint 1
 
-- **Sprint Notları:**: İlk Sprintimiz içerisinde tasarım odaklı ilerlemeyi ve oyunun hikayesine odaklanmayı uygun gördük.
+- **Sprint Notları:** İlk Sprintimiz içerisinde tasarım odaklı ilerlemeyi ve oyunun hikayesine odaklanmayı uygun gördük.
 - **Sprint içerisinde tamamlanması tahmin edilen puan:** 100 Puan
 - **Puan Tamamlama Mantığı:**  Toplamda proje boyunca 380 puanlık backlog bulunmaktadır.4 sprint'e bölündüğünde ilk sprint'in en azından 100 puan ile başlanması gerektiğine karar verilmiştir.
 - **Backlog Düzeni ve Story Seçimleri:** Backlog'umuz tasklar üzerine düzenlenmiştir. Oyun fikri ve tasarımlarına ağırlık vererek oluşturduğumuz taskler sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırılmıştır.Jira üzerinden projemizi yönettiğimiz için To-Do, In Progress ve Done olarak üç şekilde tasklarımızı sıraladık.
@@ -71,13 +71,44 @@ https://demonberrycrew.atlassian.net/jira/dashboards/10002
 
 # Sprint 2
 
+- **Sprint Notları:** İkinci sprintimiz için script ağırlıklı gitmeyi düşündük.
+- **Sprint içerisinde tamamlanması tahmin edilen puan:** 120 Puan
+- **Puan Tamamlama Mantığı:**  Toplamda proje boyunca 380 puanlık backlog bulunmaktadır.4 sprint'e bölündüğünde ikinci sprint için 120 puan ile başlanması gerektiğine karar verilmiştir.
+- **Backlog Düzeni ve Story Seçimleri:** Backlog'umuz tasklar üzerine düzenlenmiştir. Scriptinge ağırlık vererek oluşturduğumuz taskler sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırılmıştır.Jira üzerinden projemizi yönettiğimiz için To-Do, In Progress ve Done olarak üç şekilde tasklarımızı sıraladık.
+- **Daily Scrum:** Daily Scrum Toplantılarımızı discord üzerinden açtığımız bir kanal ile yapmaya karar verdik. Bu sprint için daily scrum meetingleri yapılmamıştır.
+
+- **Sprint Board Update:**
+- <img width="1260" alt="Screen Shot 2022-05-23 at 10 52 12" src="https://user-images.githubusercontent.com/104262014/169904694-ad7d16aa-c636-44cd-86d6-2b53e16478ae.png">
+
+- **Ürün Durumu:**
+- ![KarakterTasarımı](https://user-images.githubusercontent.com/104262014/167312601-380ff36c-8756-4d36-a765-31e7cd64a5d7.jpeg)
+- ![ObjeveMekanTasarımı](https://user-images.githubusercontent.com/104262014/167312615-983a8c3b-7b38-4cdb-9e7c-bba5c802cb02.jpeg)
+
+
+- **Sprint Review:** Alınan Kararlar: Sprintimiz çok başarılı geçmemiştir.Bu nedenle backloga atılan taskların 3.sprint içerisinde halledilmesi düşünülmüştür.
+- **Sprint Retrospective:** Daha fazla iletişim halinde kalınmasına ve motivasyonumuzun düşmemesine dikkat edilecektir.
+- **Diğer Notlar:** 
 ---
 
 # Sprint 3
 
 ---
 
+- **Sprint Notları:** 
+- **Sprint içerisinde tamamlanması tahmin edilen puan:** 180
+- **Puan Tamamlama Mantığı:**  Toplamda proje boyunca 380 puanlık backlog bulunmaktadır.4 sprint'e bölündüğünde üçüncü sprint için 180 puan ile başlanmasına karar verilmiştir.
+- **Backlog Düzeni ve Story Seçimleri:** Backlog'umuz tasklar üzerine düzenlenmiştir. Oyun fikri ve tasarımlarına ağırlık vererek oluşturduğumuz taskler sprint başına tahmin edilen puan sayısını geçmeyecek şekilde puanlandırılmıştır.Jira üzerinden projemizi yönettiğimiz için To-Do, In Progress ve Done olarak üç şekilde tasklarımızı sıraladık.
+- **Daily Scrum:** 
 
+
+- **Sprint Board Update:**
+
+
+- **Ürün Durumu:**
+
+- **Sprint Review:** 
+- **Sprint Retrospective:** 
+- **Diğer Notlar:** 
 
 
 
