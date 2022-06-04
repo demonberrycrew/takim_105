@@ -11,7 +11,7 @@ public class CollectObject : MonoBehaviour
 
     void  OnTriggerEnter()
     {
-        ScoreBox.GetComponent<Text>().text = "100";
+        GlobalScore.currentScore += 100;
         Destroy(gameObject);
         CollectSound.Play();
     }
