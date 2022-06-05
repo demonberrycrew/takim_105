@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class RedirectToLevel : MonoBehaviour
 {
-    public static int RedirectLevel = 1;
+    public static int RedirectLevel = 3;
 
     // Update is called once per frame
     void Update()
     {
-        if(RedirectLevel == 1)
+        if(RedirectLevel == 3)
         {
             SceneManager.LoadScene(RedirectLevel);
         }
