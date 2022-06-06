@@ -16,7 +16,7 @@ public class SplashToMenu : MonoBehaviour
     {
         yield return new WaitForSeconds(0.5f);
         theLogo.SetActive(true);
-        yield return new WaitForSeconds(4);
+        yield return new WaitForSeconds(2f);
         SceneManager.LoadScene(1);
     }
 }

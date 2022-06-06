@@ -20,6 +20,7 @@ public class MainMenuFunction : MonoBehaviour
 
     public void PlayCreds()
     {
+        buttonPress.Play();
         SceneManager.LoadScene(4);
     }
 }
