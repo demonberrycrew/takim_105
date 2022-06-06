@@ -461,7 +461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonPress: {fileID: 937191153}
   bestScore: 0
-  bestScoreDisplay: {fileID: 0}
+  bestScoreDisplay: {fileID: 411320464}
 --- !u!114 &576729957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,7 +1211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonPress: {fileID: 937191153}
   bestScore: 0
-  bestScoreDisplay: {fileID: 0}
+  bestScoreDisplay: {fileID: 411320464}
 --- !u!114 &1510249420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1671,7 +1671,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonPress: {fileID: 937191153}
   bestScore: 0
-  bestScoreDisplay: {fileID: 0}
+  bestScoreDisplay: {fileID: 411320464}
 --- !u!1 &1837548607
 GameObject:
   m_ObjectHideFlags: 0
