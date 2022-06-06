@@ -16,9 +16,11 @@ public class FinishLevel : MonoBehaviour
     public int scoreCalc;
     public int totalScored;
     public GameObject levelBlocker;
+    public GameObject fadeOut;
 
     void OnTriggerEnter()
     {
+        GetComponent<BoxCollider>().enabled = false;
         levelBlocker.SetActive(true);
         levelBlocker.transform.parent = null;
         timeCalc = GlobalTimer.extendScore * 10;
@@ -39,6 +41,8 @@ public class FinishLevel : MonoBehaviour
         theScore.SetActive(true);
         yield return new WaitForSeconds(0.5f);
         totalScore.SetActive(true);
+        yield return new WaitForSeconds(2);
+        fadeOut.SetActive(true);
     }
 
 }
