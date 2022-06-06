@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RedirectToLevel : MonoBehaviour
 {
-    public static int RedirectLevel = 3;
+    public static int RedirectLevel;
 
     // Update is called once per frame
     void Update()
