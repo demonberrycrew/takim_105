@@ -11,9 +11,5 @@ public class GameManager : MonoBehaviour
         Application.targetFrameRate = 60;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

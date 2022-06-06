@@ -2,10 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenuFunction : MonoBehaviour
 {
     public AudioSource buttonPress;
+    public int bestScore;
+    public GameObject bestScoreDisplay;
+
+    private void Start()
+    {
+        bestScore = PlayerPrefs.GetInt("LevelScore");
+        bestScoreDisplay.GetComponent<Text>().text = "Best: " + bestScore;
+    }
 
     public void PlayGame()
     {
@@ -23,4 +32,5 @@ public class MainMenuFunction : MonoBehaviour
         buttonPress.Play();
         SceneManager.LoadScene(4);
     }
+   
 }
