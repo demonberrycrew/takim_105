@@ -3528,13 +3528,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   theCamera: {fileID: 464983826}
-  Speed: 0.1
+  Speed: 0.05
   SprintSpeed: 0.15
-  rotationSpeed: 15
-  AnimationBlendSpeed: 6
+  rotationSpeed: 7.5
+  AnimationBlendSpeed: 5
   JumpSpeed: 0.16666669
   rbpm: {fileID: 13400000, guid: 7b9ad4b502b7303439eb2aaf522242c1, type: 2}
-  LerpSpeed: 5
+  LerpSpeed: 2
 --- !u!95 &1416291780
 Animator:
   serializedVersion: 3

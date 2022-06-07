@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public Camera theCamera;
-    public float Speed = 2f;
-    public float SprintSpeed = 5f;
-    public float rotationSpeed = 15f;
+    public float Speed = 0.05f;
+    public float SprintSpeed = 0.15f;
+    public float rotationSpeed = 7.5f;
     public float AnimationBlendSpeed = 5f;
-    public float JumpSpeed = 6;
+    public float JumpSpeed = 0.1666667f;
     CharacterController CharController;
     Animator PlayerAnimator;
 
@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public PhysicMaterial rbpm;
 
     private Vector3 updateVector;
-    public float LerpSpeed = 0.5f;
+    public float LerpSpeed = 2f;
 
 
     // Start is called before the first frame update
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
@@ -55,7 +55,7 @@ public class PlayerController : MonoBehaviour
        
         if (!CharController.isGrounded)
         {
-            mSpeedY += mGravity * Time.fixedDeltaTime;
+            mSpeedY += mGravity * Time.deltaTime;
         }
         else if(mSpeedY < 0)
         {
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         Vector3 rotatedMovement = Quaternion.Euler(0, theCamera.transform.rotation.eulerAngles.y, 0) * movement;
         Vector3 verticalMovement = Vector3.up * mSpeedY;
 
-        updateVector = Vector3.Lerp(updateVector, (verticalMovement + (rotatedMovement * (mSprinting ? SprintSpeed : Speed))), Time.fixedDeltaTime * LerpSpeed);
+        updateVector = Vector3.Lerp(updateVector, (verticalMovement + (rotatedMovement * (mSprinting ? SprintSpeed : Speed))), Time.deltaTime * LerpSpeed);
         CharController.Move(updateVector);
 
         if(rotatedMovement.magnitude > 0)
@@ -94,9 +94,9 @@ public class PlayerController : MonoBehaviour
             mDesireAnimSpeed = 0;
         }
 
-        PlayerAnimator.SetFloat("Speed", Mathf.Lerp(PlayerAnimator.GetFloat("Speed"), mDesireAnimSpeed, AnimationBlendSpeed * Time.fixedDeltaTime));
+        PlayerAnimator.SetFloat("Speed", Mathf.Lerp(PlayerAnimator.GetFloat("Speed"), mDesireAnimSpeed, AnimationBlendSpeed * Time.deltaTime));
         Quaternion currentRotation = transform.rotation;
         Quaternion targetRotation = Quaternion.Euler(0, mDesireRotation, 0);
-        transform.rotation = Quaternion.Lerp(currentRotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+        transform.rotation = Quaternion.Lerp(currentRotation, targetRotation, rotationSpeed * Time.deltaTime);
     }
 }
