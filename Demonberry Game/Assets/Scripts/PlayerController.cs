@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     bool mSprinting = false;
 
     float mSpeedY = 0;
-    float mGravity = -0.4f;
+    float mGravity = -0.2f;
 
     bool mJumping = false;
 
@@ -37,7 +37,7 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
+    void Update()
     {
         float x = Input.GetAxisRaw("Horizontal");
         float z = Input.GetAxisRaw("Vertical");
