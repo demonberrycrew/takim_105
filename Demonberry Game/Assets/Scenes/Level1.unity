@@ -3784,7 +3784,7 @@ MonoBehaviour:
   SprintSpeed: 0.075
   rotationSpeed: 5
   AnimationBlendSpeed: 6
-  JumpSpeed: 0.16
+  JumpSpeed: 0.14
   rbpm: {fileID: 13400000, guid: 7b9ad4b502b7303439eb2aaf522242c1, type: 2}
   LerpSpeed: 5
 --- !u!95 &1416291780
