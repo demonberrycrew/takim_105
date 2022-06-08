@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     bool mSprinting = false;
 
     float mSpeedY = 0;
-    float mGravity = -0.2f;
+    float mGravity = -0.16f;
 
     bool mJumping = false;
 
