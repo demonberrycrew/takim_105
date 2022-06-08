@@ -14,7 +14,7 @@ public class PlatformGripper : MonoBehaviour
     void OnTriggerExit()
     {
         thePlayer.transform.parent = null;
-        thePlayer.transform.localScale = new Vector3(4.5f, 4.5f, 4.5f);
+        thePlayer.transform.localScale = new Vector3(0f, 0f, 0f);
     }
     private void Start()
     {

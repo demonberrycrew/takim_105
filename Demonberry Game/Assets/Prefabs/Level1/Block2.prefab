@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8027790869600712572}
   - component: {fileID: 608423372028375215}
   m_Layer: 0
-  m_Name: Tile Bot 2
+  m_Name: Block2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
